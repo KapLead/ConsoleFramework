@@ -47,6 +47,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\ETable.cs" />
+    <Compile Include="Core\Graphics.cs" />
+    <Compile Include="Core\Table.cs" />
+    <Compile Include="Core\TableBuilder.cs" />
     <Compile Include="Designer\Char.cs" />
     <Compile Include="Designer\ConBuffer.cs" />
     <Compile Include="Designer\ConBase.cs" />
@@ -54,6 +58,7 @@
     <Compile Include="Designer\Layers\LayerCollection.cs" />
     <Compile Include="Designer\Layers\Point.cs" />
     <Compile Include="Designer\Layers\Size.cs" />
+    <Compile Include="Frame\View.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
